@@ -4,10 +4,10 @@ const { listClickByClass } = require("./utility/listClick/listClickByClass");
 const fs = require("fs");
 const env = require("dotenv");
 const { clickByClass } = require("./utility/clickByClick/clickByClass");
-const {listClick}  = require('./utility/classListClick/classListClick')
-const {clickById}  = require('./utility/clickById/clickById')
+const { listClick } = require("./utility/classListClick/classListClick");
+const { clickById } = require("./utility/clickById/clickById");
+const { getAttriById } = require("./utility/getAttriById/getAttriById");
 env.config();
 (async () => {
-
-
+ 
 })();
